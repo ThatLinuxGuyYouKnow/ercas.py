@@ -83,7 +83,7 @@ A Python library for interacting with the ErcasPay API, along with a Flask-based
 ## API Documentation
 
 Refer to the official ErcasPay API documentation for details on the `/payment/initiate` endpoint and other API calls.
-[ERCASPAY DEVELOPER DOCUMENTATION](link to documentation)
+[ERCASPAY DEVELOPER DOCUMENTATION](https://docs.ercaspay.com/)
 
 
 ## Contributing
