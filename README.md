@@ -15,7 +15,7 @@ A Python library for interacting with the ErcasPay API, along with a Flask-based
     *   Handles API requests and responses (using the `requests` library).
     *   Includes basic error handling.
     *   Supports sandbox and live environments (configurable).
-*   **Flask Payment Initiator (`app.py`):**
+*   **Flask Payment Initiator (`example.py`):**
     *   Provides a `/initiate-payment` endpoint for initiating payments via POST requests.
     *   Accepts payment parameters as a JSON payload.
     *   Validates required parameters and types
@@ -45,14 +45,14 @@ A Python library for interacting with the ErcasPay API, along with a Flask-based
     ```
 
 3.  **Set up your API Key:**
-    *   In `app.py`, replace `api_key = "ercas_pay_key"` with your actual ErcasPay API key, in a standard production enviroment, it would be better to load it from a .env file.
+    *   In `example.py`, replace `api_key = "ercas_pay_key"` with your actual ErcasPay API key, in a standard production enviroment, it would be better to load it from a .env file.
 
 ### Usage
 
 1.  **Run the Flask server:**
 
     ```bash
-    python app.py
+    python example.py
     ```
 
 2.  **Send a POST request to initiate payment:**
